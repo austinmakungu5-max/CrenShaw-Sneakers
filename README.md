@@ -85,14 +85,6 @@ This submission (Part 2) includes:
 - Screenshot evidence of the desktop, tablet, and mobile views has been
   added to `/screenshots` and is referenced below.
 
-### Screenshot Evidence
-| Page | Desktop | Tablet | Mobile |
-|---|---|---|---|
-| Home | `screenshots/home-desktop.png` | `screenshots/home-tablet.png` | `screenshots/home-mobile.png` |
-| About | `screenshots/about-desktop.png` | `screenshots/about-tablet.png` | `screenshots/about-mobile.png` |
-| Services | `screenshots/services-desktop.png` | `screenshots/services-tablet.png` | `screenshots/services-mobile.png` |
-| Get in Touch | `screenshots/enquiry-desktop.png` | `screenshots/enquiry-tablet.png` | `screenshots/enquiry-mobile.png` |
-| Contact | `screenshots/contact-desktop.png` | `screenshots/contact-tablet.png` | `screenshots/contact-mobile.png` |
 
 Part 3 (JavaScript functionality and SEO) will follow in a future
 submission/edit.
