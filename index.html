@@ -1,136 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>Crenshaw Structure - Welcome to the Sneaker Factory</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrenShaws Sneakers | Home</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <nav class="nav">
-        <span class="nav__logo"></span>
-        <ul class="nav__links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <div class="ctas">
-            <button class="btn btn--secondary">Login</button>
-            <button class="btn btn--primary">Sign Up</button>
-        </div>
+
+  <header>
+    <h1>CrenShaws Sneakers</h1>
+    <p>Premium Drops &bull; Timeless Style</p>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" class="current">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="enquiry.html">Get in Touch</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero__content">
-            <h1 class="hero__title">Welcome to the Sneaker Factory</h1>
-            <p class="hero__subtitle">Discover the latest trends in sneaker culture and elevate your style.</p>
-            <button class="btn btn--primary">Shop Now</button>
-        </div>
-    </section>
+  <!-- Hero section introducing the brand -->
+  <div class="hero">
+    <h2>Welcome to the Sneaker Factory</h2>
+    <p>
+      CrenShaws is a sneaker studio built for people who care about how
+      their shoes look and feel. Discover the latest drops and elevate
+      your everyday style.
+    </p>
+    <a href="enquiry.html" class="btn">Get a Quote</a>
 
-    <!-- Featured Brands Section -->
-    <section class="featured-brands">
-        <div class="brands">
-            <div class="brand"><img src="brand1-logo.jpg" alt="Brand 1"></div>
-            <div class="brand"><img src="brand2-logo.jpg" alt="Brand 2"></div>
-            <div class="brand"><img src="brand3-logo.jpg" alt="Brand 3"></div>
-            <div class="brand"><img src="brand4-logo.jpg" alt="Brand 4"></div>
-            <div class="brand"><img src="brand5-logo.jpg" alt="Brand 5"></div>
-        </div>
-    </section>
+    <img class="responsive-image"
+      src="images/responsive/crenshaw-hero-800w.jpg"
+      srcset="images/responsive/crenshaw-hero-480w.jpg 480w,
+              images/responsive/crenshaw-hero-800w.jpg 800w,
+              images/responsive/crenshaw-hero-1200w.jpg 1200w"
+      sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 33vw"
+      alt="CrenShaws sneaker studio branding">
+  </div>
 
-    <!-- Products Section -->
-    <section class="products">
-        <h2 class="products__title">Our Products</h2>
-        <div class="product-list">
-            <div class="product"><img src="_images/CrenShaw White Dynamic Sneakers.png" alt="Product 1">
-                <p>Product 1</p>
-                <span class="product-price">$99.99</span>
-                <button class="btn btn--primary">Buy Now</button>
-            </div>
-            <div class="product"><img src="_images/CrenShaw Black Dynamic Sneakers.png" alt="Product 2">
-                <p>Product 2</p>
-                <span class="product-price">$89.99</span>
-                <button class="btn btn--primary">Buy Now</button>
-            </div>
-            <div class="product"><img src="_images/CrenShaw Gray Dynamic Sneakers.png" alt="Product 3">
-                <p>Product 3</p>
-                <span class="product-price">$79.99</span>
-                <button class="btn btn--primary">Buy Now</button>
-            </div>
-            <div class="product"><img src="product4.jpg" alt="Product 4">
-                <p>Product 4</p>
-                <span class="product-price">$69.99</span>
-                <button class="btn btn--primary">Buy Now</button>
-            </div>
-            <div class="product"><img src="product5.jpg" alt="Product 5">
-                <p>Product 5</p>
-                <span class="product-price">$59.99</span>
-                <button class="btn btn--primary">Buy Now</button>
-            </div>
-            <div class="product"><img src="product6.jpg" alt="Product 6">
-                <p>Product 6</p>
-                <span class="product-price">$49.99</span>
-                <button class="btn btn--primary">Buy Now</button>
-            </div>
-            <div class="product"><img src="product7.jpg" alt="Product 7">
-                <p>Product 7</p>
-                <span class="product-price">$39.99</span>
-                <button class="btn btn--primary">Buy Now</button>
-            </div>
-            <div class="product"><img src="product8.jpg" alt="Product 8">
-                <p>Product 8</p>
-                <span class="product-price">$29.99</span>
-                <button class="btn btn--primary">Buy Now</button>
-            </div>
-        </div>
-    </section>
+  <main>
+    <h2>Featured Drop</h2>
+    <p>A quick look at our latest release. Visit the Services page for full details on what we offer.</p>
 
-    <!-- Call to Action Section -->
-    <section class="cta">
-        <h2 class="cta__title">Join the Sneaker Revolution</h2>
-        <p class="cta__subtitle">Sign up for exclusive offers and updates on the latest sneaker releases.</p>
-        <form class="cta__form">
-            <input class="cta__input" type="email" placeholder="Enter your email" aria-label="Email address">
-            <button class="btn btn--primary" type="submit">Sign Up Now</button>
-        </form>
-    </section>
+    <div class="container">
+      <div>
+        <img
+          src="images/responsive/white-dynamic-sneakers-480w.jpg"
+          srcset="images/responsive/white-dynamic-sneakers-480w.jpg 480w,
+                  images/responsive/white-dynamic-sneakers-800w.jpg 800w,
+                  images/responsive/white-dynamic-sneakers-1080w.jpg 1080w"
+          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 320px"
+          alt="CrenShaw White Dynamic Sneakers">
+        <h3>White Dynamic Sneakers</h3>
+        <span class="product-price">R1 499.00</span>
+        <a href="enquiry.html" class="btn">Enquire Now</a>
+      </div>
+    </div>
 
-    <!-- Footer Section -->
-    <footer class="footer">
-        <div class="footer__content">
-            <div class="footer__brand">
-                <span class="nav__logo">Crenshaw</span>
-                <p>Elevating sneaker culture with premium drops and timeless style.</p>
-            </div>
+    <p><em>More products coming soon — check back for new drops.</em></p>
 
-            <div class="footer__links-wrap">
-                <h3>Explore</h3>
-                <ul class="footer__links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
+    <h2>Style Inspiration</h2>
+    <p>
+      A few looks we love right now. These are style examples to give you
+      an idea of the drops we're planning — not all shown here are in
+      stock yet, so check with us before you get too excited.
+    </p>
 
-            <div class="footer__links-wrap">
-                <h3>Company</h3>
-                <ul class="footer__links">
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms of Service</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-        </div>
+    <div class="container">
+      <div>
+        <img
+          src="images/responsive/gallery-new-drop-480w.jpg"
+          srcset="images/responsive/gallery-new-drop-480w.jpg 480w,
+                  images/responsive/gallery-new-drop-800w.jpg 800w"
+          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 320px"
+          alt="New sneaker drop promotional graphic">
+        <p>New Drop</p>
+      </div>
 
-        <p class="footer__copyright">&copy; 2024 Crenshaw Structure. All rights reserved.</p>
-    </footer>
+      <div>
+        <img
+          src="images/responsive/gallery-street-style-480w.jpg"
+          srcset="images/responsive/gallery-street-style-480w.jpg 480w,
+                  images/responsive/gallery-street-style-800w.jpg 800w"
+          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 320px"
+          alt="Couple wearing sneakers on a street">
+        <p>Street Style</p>
+      </div>
 
+      <div>
+        <img
+          src="images/responsive/gallery-classic-red-480w.jpg"
+          srcset="images/responsive/gallery-classic-red-480w.jpg 480w,
+                  images/responsive/gallery-classic-red-800w.jpg 800w"
+          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 320px"
+          alt="Classic red and black high-top sneaker">
+        <p>Classic Red</p>
+      </div>
+
+      <div>
+        <img
+          src="images/responsive/gallery-year-end-sale-480w.jpg"
+          srcset="images/responsive/gallery-year-end-sale-480w.jpg 480w,
+                  images/responsive/gallery-year-end-sale-800w.jpg 800w"
+          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 320px"
+          alt="White running sneaker promotional graphic">
+        <p>Year-End Sale</p>
+      </div>
+
+      <div>
+        <img
+          src="images/responsive/gallery-white-limited-480w.jpg"
+          srcset="images/responsive/gallery-white-limited-480w.jpg 480w,
+                  images/responsive/gallery-white-limited-800w.jpg 800w"
+          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 320px"
+          alt="White sneaker on a red display podium">
+        <p>Limited Stock</p>
+      </div>
+
+      <div>
+        <img
+          src="images/responsive/gallery-black-red-480w.jpg"
+          srcset="images/responsive/gallery-black-red-480w.jpg 480w,
+                  images/responsive/gallery-black-red-800w.jpg 800w"
+          sizes="(max-width: 480px) 100vw, (max-width: 768px) 50vw, 320px"
+          alt="Black and red high-top sneaker">
+        <p>Black &amp; Red</p>
+      </div>
+    </div>
+
+    <h2>Why Choose CrenShaws?</h2>
+    <ul>
+      <li>Carefully sourced sneakers, checked for quality before every drop</li>
+      <li>Honest pricing with no hidden costs</li>
+      <li>Friendly, knowledgeable service from people who love sneakers too</li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2026 CrenShaws Sneakers. All rights reserved.
+  </footer>
+
+  <script src="js/main.js"></script>
 </body>
-
 </html>
